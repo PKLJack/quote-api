@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "quote-api",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

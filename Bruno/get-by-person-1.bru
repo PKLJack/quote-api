@@ -1,0 +1,15 @@
+meta {
+  name: get-by-person-1
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:4001/api/quotes?person=Grace Hopper
+  body: none
+  auth: none
+}
+
+query {
+  person: Grace Hopper
+}

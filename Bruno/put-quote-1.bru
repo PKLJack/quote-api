@@ -1,0 +1,16 @@
+meta {
+  name: put-quote-1
+  type: http
+  seq: 6
+}
+
+put {
+  url: http://localhost:4001/api/quotes/14
+  body: formUrlEncoded
+  auth: none
+}
+
+body:form-urlencoded {
+  quote: hello
+  person: world
+}
